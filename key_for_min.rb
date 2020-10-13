@@ -10,6 +10,6 @@ def key_for_min_value(name_hash)
   end
 end
   result[name_hash.key(low_value)]=low_value
-return name_hash.key(low_value)
+return result.key(low_value)
 return nil if result.empty?
 end
